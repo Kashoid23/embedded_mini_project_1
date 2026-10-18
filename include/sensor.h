@@ -5,8 +5,8 @@ struct SensorReading {
 };
 
 namespace Sensor {
-    constexpr uint16_t kThresholdDark = 1000;
-    constexpr uint16_t kThresholdLight = 2000;
+    constexpr uint16_t kThresholdDark = 1600;
+    constexpr uint16_t kThresholdLight = 2200;
 
     void begin();
     SensorReading readLdr();
